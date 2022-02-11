@@ -1,2 +1,2 @@
-# api_rest_calculadora_r
-API Rest en R con la funcionalidad de una calculadora
+# API Rest calculadora
+API Rest en R con la funcionalidad de una calculadora mediante el uso de la librería https://www.rplumber.io/ en R.
