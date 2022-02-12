@@ -1,9 +1,3 @@
-# ------------------------------------------------------------------------------
-# Ejemplo de uso:
-#   calculadora <- modules::use('calculadora.r')
-#   calculadora$suma(3, 5)   # devuelve un 8
-# ------------------------------------------------------------------------------
-
 suma <- function(num1, num2) {
   as.numeric(num1) + as.numeric(num2)
 }
@@ -29,6 +23,6 @@ poli <- function(a, b, c) {
   discriminante <- (b^2) - (4*a*c)
   
   if(discriminante < 0){
-    error <- "No tiene solución"
+    error <- "No tiene solucion"
   }
 }
